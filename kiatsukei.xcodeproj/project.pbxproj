@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		609A51801E74098700440306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4EA541E73D136006473D2 /* ViewController.swift */; };
 		60F4EA531E73D136006473D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4EA521E73D136006473D2 /* AppDelegate.swift */; };
-		60F4EA551E73D136006473D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F4EA541E73D136006473D2 /* ViewController.swift */; };
 		60F4EA581E73D136006473D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F4EA561E73D136006473D2 /* Main.storyboard */; };
 		60F4EA5A1E73D136006473D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F4EA591E73D136006473D2 /* Assets.xcassets */; };
 		60F4EA5D1E73D136006473D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F4EA5B1E73D136006473D2 /* LaunchScreen.storyboard */; };
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F4EA551E73D136006473D2 /* ViewController.swift in Sources */,
+				609A51801E74098700440306 /* ViewController.swift in Sources */,
 				60F4EA531E73D136006473D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,8 +417,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F8WVNF9WH2;
 				INFOPLIST_FILE = kiatsukei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.malfoy.kiatsukei;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malfoy.compassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,8 +431,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F8WVNF9WH2;
 				INFOPLIST_FILE = kiatsukei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.malfoy.kiatsukei;
+				PRODUCT_BUNDLE_IDENTIFIER = com.malfoy.compassApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -514,6 +516,7 @@
 				60F4EA791E73D136006473D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60F4EA7A1E73D136006473D2 /* Build configuration list for PBXNativeTarget "kiatsukeiTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +525,7 @@
 				60F4EA7C1E73D136006473D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60F4EA7D1E73D136006473D2 /* Build configuration list for PBXNativeTarget "kiatsukeiUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +534,7 @@
 				60F4EA7F1E73D136006473D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
