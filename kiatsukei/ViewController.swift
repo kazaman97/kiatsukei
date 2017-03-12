@@ -45,7 +45,7 @@ class ViewController: UIViewController {
     func motionSensor() {
         myMotionManager = CMMotionManager()
         myMotionManager.accelerometerUpdateInterval = 0.1
-        myMotionManager.startAccelerometerUpdates(to: OperationQueue.main, withHandler: (accelerometerData, error) in
+        myMotionManager.startAccelerometerUpdates(to: OperationQueue.main, withHandler: {(accelerometerData, error) in
         if let e = error {
             print(e.localizedDescription)
             return
@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         xLabel.text = "x=\(data.acceleration.x)"
         yLabel.text = "y=\(data.acceleration.y)"
         zLabel.text = "z=\(data.acceleration.z)"
+		)}
     }
     
     override func viewDidLoad() {
